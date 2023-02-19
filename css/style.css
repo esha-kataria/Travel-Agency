@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+}
+
+.f-family{
+    font-family: 'Questrial';
+}
+
+.f-size{
+    font-size:50px !important;
+}
+
+.bgimg{
+    /* background-color: #CBA059; */
+    background-image:url(../images/travel1bg.png);
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size:cover;
+}
+
+.bgimg2{
+    background-image:url(../images/travel2bg.jpg);
+    background-size:cover;
+}
+
+.navbar-scroll{
+    transition: all 0.0s ease-in;
+}
+
+.navbar-scroll.sticky{
+    background-color: black !important;
+}
+
+.textcolor:hover{
+    color: #dac083;
+    cursor: pointer;
+}
+
+.active .root, [data-bs-theme=light] 
+    {
+    --bs-emphasis-color-rgb:rgb(218, 192, 131)  !important; 
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #dac083 !important;
+  }
+
+.zoomin1:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition:all 1s;
+    object-fit: cover;
+}
+
+.brnclr{
+    color: #dac083 !important;
+}
+
+.bgclr1{
+    background-color: #bda263 !important;
+}
+
+.border1{
+    border: 2px solid #bda263;
+}
+
+.bgclr{
+    background-color: #dac083 ;
+}
+
+.padding{
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+
+.p-100{
+    padding-top: 100px;
+}
+
+.text1bg{
+    width: 40%;
+    padding: 15px 24px 12px 29px;
+    background-color: #07090B38 !important;
+}
+
+.bgbody{
+    background-image: url(../images/bgbodyimg.jpg);
+    background-size: cover;
+}
+
+.bgbody1{
+    background-image: url(../images/bodyimg1.jpg), url(../images/bodyimg2.png);
+    background-size: cover;
+}
+
+.bglight{
+    background-color:rgb(248, 249, 250);
+}
+
+.play .material-symbols-outlined{
+    font-size: 55px !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.bgbody2{
+    background-image: url(../images/bgbodyimg2.jpg);
+    background-size: cover;
+}
+
+.border1{
+    border: 40% !important;
+}
+
+.chooseicons .material-symbols-outlined{
+    font-size: 50px !important;
+    color: #fff !important;
+}
+
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas{
+    font-size: 48px !important;
+}
+
+.chooseimg{
+    background-image: url(../images/chooseimg.jpg);
+    background-size: cover;
+}
+
+.bg-blue{
+    background-color: rgba(19, 19, 77, 0.877) !important;
+}
+
+.chooseimg .row{
+    --bs-gutter-x: 0.5rem !important;
+}
+
+.guiderbg{
+    background-image: url(../images/featurebg.jpg);
+    background-size: cover;
+}
+
+.icons1 .fa-brands{
+    font-size: 20px !important;
+}
+
+.input1 .border2{
+    border: 0 !important;
+}
+
+/* about us */
+
+.aboutbg{
+    background-image: url(../images/aboutbg.jpg);
+    background-size: cover;
+}
+
+.arrow .breadcrumb-item::before{
+    color: #fff !important;
+}
+
+.material-symbols-outlined{
+    font-size: 40px !important;
+    color: #CEAC5B !important;
+}
+
+.brnclr{
+    color: #CEAC5B !important;
+}
+
+.footerabt{
+    background-image: url(../images/footerbgabt.jpg);
+    background-size: cover;
+}
+
+.padding1{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.card1 .material-symbols-outlined{
+    font-size: 20px !important;
+    color:#777 !important;
+}
